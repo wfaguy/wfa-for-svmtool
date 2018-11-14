@@ -29,8 +29,10 @@ Other features
 * svm migration
 * the classic svm dr lifecycle : initialize / update / activate / resync / reverse / recover / ...
 
-**note** : if svmtool changes, you might need to wait for an update of the wfa workflows.
-**note2** : if you want to manually update svmtool in your wfa server, simply copy the new svmtool code to %ProgramFiles%\Netapp\WFA\Posh\Modules\svmtool.  Smaller changes and bugfixes should not impact the working of the workflows
+> **notes**
+> if svmtool changes, you might need to wait for an update of the wfa workflows.
+> if you want to manually update svmtool in your wfa server, simply copy the new svmtool code to
+> %ProgramFiles%\Netapp\WFA\Posh\Modules\svmtool.  Smaller changes and bugfixes should not impact the working of the workflows
 
 ## Workflows
 With the exclusion of svm dr restore, which is best to be a manual action, the full svmtool featureset is covered.
