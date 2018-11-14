@@ -1,8 +1,6 @@
 # wfa-for-svmtool
 Wfa workflow wrapper for svmtool (https://github.com/oliviermasson/svmtool), allowing a GUI for this fantastic SVM DR script.
 
-**Version 0.1.3**
-
 A set of workflows to manage Svm Dr.  Not the cdot embedded svm dr, but a script maintained svm dr.
 **note** : this version follows the version for 'svmtool' (read below)
 
