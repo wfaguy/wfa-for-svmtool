@@ -81,7 +81,8 @@ NodeMatchRegex=(.*)-[0-9]{2}
 The ini file contains a few global settings.
 We import this ini file using the "svm dr config datasource"
 
-The **DrSuffix** setting, defines how we will call the destination svm.  **note** : we aware of netbios limitation (15 long)
+The **DrSuffix** setting, defines how we will call the destination svm.  
+**note** : be aware of netbios limitation (15 long)
 
 **WfaCredentials**
 During non interactive we can grab credentials for AD & clusters from wfa directly.  For AD we assume the credential-name matches the AD-domainname
