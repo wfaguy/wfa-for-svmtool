@@ -63,7 +63,7 @@ However, if you could think of a way to deliver a pool of ip's per vlan/subnet, 
 ## wfa.ini file
 
 %ProgramFiles%\Netapp\WFA\Posh\Modules\svmtool\wfa.ini
-```
+```ini
 [Default]
 DrSuffix=-dr
 
